@@ -171,7 +171,7 @@ option {
 /* ================================================꽃 다발 가격 리스트 */
 
 .manwon p {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
     text-align: center;
     line-height: 60px;
@@ -265,7 +265,10 @@ option {
 
 #list .item .title {
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 5px;
+    
 }
 
 #list .item .price {
@@ -367,6 +370,25 @@ option {
     line-height: 50px;
     font-size: 20px;
     border-radius: 0 0 0 20px;
+    cursor: pointer;
+}
+
+#previewContainer .previewbox .preview .telephone {
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    background-color: #FFF100;
+    top: 580px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    line-height: 40px;
+}
+
+#previewContainer .previewbox .preview .telephone a {
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
     cursor: pointer;
 }
 
