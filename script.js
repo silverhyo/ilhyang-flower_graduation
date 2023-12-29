@@ -128,15 +128,25 @@ function openPopupWindowActive() {
     let previewBox02 = document.querySelector('.previewbox02');
     let previewBox11 = document.querySelector('.previewbox11');
     let previewBox12 = document.querySelector('.previewbox12');
+    let previewBox13 = document.querySelector('.previewbox13');
     let previewBox21 = document.querySelector('.previewbox21');
     let previewBox22 = document.querySelector('.previewbox22');
+    let previewBox23 = document.querySelector('.previewbox23');
+    let previewBox31 = document.querySelector('.previewbox31');
+    let previewBox32 = document.querySelector('.previewbox32');
+    let previewBox33 = document.querySelector('.previewbox33');
     
     let item01 = document.querySelector('.item01');
     let item02 = document.querySelector('.item02');
     let item11 = document.querySelector('.item11');
     let item12 = document.querySelector('.item12');
+    let item13 = document.querySelector('.item13');
     let item21 = document.querySelector('.item21');
     let item22 = document.querySelector('.item22');
+    let item23 = document.querySelector('.item23');
+    let item31 = document.querySelector('.item31');
+    let item32 = document.querySelector('.item32');
+    let item33 = document.querySelector('.item33');
 
     item01.onclick = () => {
         previewContainer.style.display = "flex";
@@ -154,6 +164,10 @@ function openPopupWindowActive() {
         previewContainer.style.display = "flex";
         previewBox12.classList.add('active');
     }
+    item13.onclick = () => {
+        previewContainer.style.display = "flex";
+        previewBox13.classList.add('active');
+    }
     item21.onclick = () => {
         previewContainer.style.display = "flex";
         previewBox21.classList.add('active');
@@ -162,6 +176,23 @@ function openPopupWindowActive() {
         previewContainer.style.display = "flex";
         previewBox22.classList.add('active');
     }
+    item23.onclick = () => {
+        previewContainer.style.display = "flex";
+        previewBox23.classList.add('active');
+    }
+    item31.onclick = () => {
+        previewContainer.style.display = "flex";
+        previewBox31.classList.add('active');
+    }
+    item32.onclick = () => {
+        previewContainer.style.display = "flex";
+        previewBox32.classList.add('active');
+    }
+    item33.onclick = () => {
+        previewContainer.style.display = "flex";
+        previewBox33.classList.add('active');
+    }
+    
 
 }
 
